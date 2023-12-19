@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <title>Wood Calculator</title>
+</head>
+<body>
+
+<div id="calculator">
+
+  <div>
+  <img src="axe.png" alt="axe" >
+  <h1>Wood Calculator</h1>
+  </div>
+
+  <div id="input">
+  <label for="length">Length</label>
+  <input type="number" id="length" placeholder="length"> <br>
+
+  <label for="count">Count &nbsp;</label>
+  <input type="number" id="count" placeholder="count"> <br>
+
+  <label for="price">Price &nbsp; &nbsp;</label>
+  <input type="number" id="price" placeholder="price"> <br>
+ </div>
+  <div id="dim">
+    <button onclick="calculate1()">4 x 3</button>
+    <button onclick="calculate2()">5 x 4</button>
+    <button onclick="calculate3()">6 x 4</button>
+    <button onclick="calculate4()">4 x 1 1/2</button>
+    <button onclick="calculate5()">3 x 1 1/2</button>
+    <button onclick="calculate6()">5 x 1 1/2</button>
+    <button onclick="calculate7()">6 x 1 1/2</button>
+    <button onclick="calculate8()">7 x 1 1/2</button>
+    <button onclick="calculate9()">4 x 4</button>
+    <button onclick="calculate10()">5 x 5</button>
+    <button onclick="calculate11()">3 x 3</button>
+    <button onclick="calculate12()">2 x 1 1/2</button>
+   </div>
+  <div id="result1"></div> 
+  <div id="result"></div>
+ 
+</div>
+
+
+<script src="script.js"> </script> 
+</body>
+</html>

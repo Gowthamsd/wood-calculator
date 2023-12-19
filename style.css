@@ -1,0 +1,98 @@
+
+body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+}
+
+#calculator {
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: #EDDFB3; 
+      min-height: 80%;
+    
+    }
+
+    #calculator h1 {
+      color: #2C3639; 
+    }
+ #calculator img
+     {
+
+      position: static;
+      width: 42px;
+      height: 42px;
+      rotate: 50deg;
+      float: left;       
+
+     }
+    input {
+      width: 90px;
+      padding: 5px;
+      margin: 8px;
+      text-align: center;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      padding: 10px;
+      margin-top: 10px;
+      cursor: pointer;
+      background-color: #87805E; /* Green button color */
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+  
+    }
+
+    button:hover{
+      background-color: yellowgreen;
+    }
+    
+    label
+    {
+       color: black;
+    }
+    #result, #result1 {
+        padding: 15px; 
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 1%;
+        cursor: pointer;
+        background-color: #333; /* Green button color */
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    #dim{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 10px;
+    }
+    p{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      padding: 25px;
+      margin-top: 150px;
+      padding-bottom: 0px;
+      margin-left: 10px;
+      color: #2C3639;
+      font-weight: bold;
+      font-size: large;
+      text-align: center;
+    }
+
+
+    
+  
